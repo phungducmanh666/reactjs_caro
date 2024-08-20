@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "~": "./src",
+          "~components": "./src/components",
+          "~layouts": "./src/layouts",
+          "~pages": "./src/pages",
+          "~styles": "./src/styles",
+          "~hooks": "./src/hooks",
+          "~adapters": "./src/adapters",
+          "~core": "./src/core",
+          "~theme": "./src/theme"
+        }
+      }
+    ]
+  ]
+}
